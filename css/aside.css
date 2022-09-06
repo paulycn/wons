@@ -1,0 +1,46 @@
+aside {
+    position: fixed;
+    left: 30px;
+    background:white;
+    border-radius: 10.5635px;
+    margin: 30px 30px 30px auto;
+}
+
+.logo_block,
+.menu_bar,
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.navigation .logo_block {
+    margin: 32px 10px;
+}
+
+.menu_bar a {
+    margin: 10px 30px;
+    opacity: 0.4;
+}
+
+.menu_bar a.active {
+    opacity: 1;
+    background: var(--background-color);
+    padding: 19px 0 14px 34px;
+    border: 1px solid #c39f9f00;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.41);
+    border-radius: 0px 5.28176px 5.28176px 0px;
+    margin: 15px 30px 15px 1px;
+}
+
+.menu_bar a.active svg {
+    fill: #3A36DB;
+}
+
+.navigation .profile {
+    margin: 80px 17px 30px 20px;
+    gap: 20px;
+}
+
+

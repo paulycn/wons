@@ -1,0 +1,48 @@
+.results {
+    margin: 32px auto;
+}
+
+.results .results_wrapper {
+    display: flex;
+    gap: 32px;
+}
+
+.results_wrapper .results_item {
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 34px 40px 24px 30px;
+    gap: 24px;
+}
+
+.results_item .circle_green img{
+    background: #cdeeec;
+}
+
+.results_item .circle_red img{
+    background: #ffe1f0;
+}
+
+.result_item_number {
+    margin-top: 11px;;
+}
+
+.results_item img {
+    padding: 23px;
+    background: var(--background-color);
+    border-radius: 40px;
+}
+
+.result_item_number span {
+    opacity: 0.7;
+    font-weight: 700;
+    font-size: 24.0637px;
+    line-height: 31px;
+}
+
+.result_item_number h3 {
+    font-size: 15.0213px;
+    line-height: 20px;
+    font-weight: 400;
+    opacity: 0.7;
+}

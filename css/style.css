@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('./aside.css');
+@import url('./page_header.css');
+@import url('./result.css');
+@import url('./analitycs.css');
+@import url('./orders.css');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, footer {
+    font-family: 'DM Sans', Verdana, Tahoma, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    background: #F1F4FA;   
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+main {
+    margin-left: 147px ;
+    margin-right: 28px;
+}
+
+:root {
+    --main-color:#06152B;
+}
+
+:root {
+    --background-color:#F1F4FA;
+}
+
+.title_of_section {
+    opacity: 0.7;
+    font-size: 19.0143px;
+    line-height: 25px;
+    position: absolute;
+    top: 30px;
+    left: 22px;
+}
+
+.dot {
+    height: 4px;
+    width: 4px;
+    background: var(--main-color);
+    opacity: 0.5;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.menu_dot  {
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    border:0;
+    background:none;
+}
+
+.menu_dot :hover {
+    opacity: 1;
+}
