@@ -1,0 +1,92 @@
+.customer_list {      
+    flex-grow: 1;
+    margin-right: 30px;
+}
+
+.header_customer_list .page_header_title {
+    padding: 50px 30px 18px 5px;
+}
+
+.customer_table .menu_dot {
+    position: unset;
+}
+
+table.customer_table {
+    border-collapse: separate; 
+    border-spacing: 0 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: var(--main-color);
+    width: 100%;
+}
+
+table.customer_table td {
+    padding: 20px;
+    font-weight: 400;
+}
+
+table.customer_table th {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color:var(--main-color);
+    opacity: 0.7;
+    text-align: start;
+    padding-left: 25px;
+}
+
+.desc-black::after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 7.5px;
+    margin-left: 2.5px;
+    background: url(/img/desc_black.svg);
+    background-repeat: no-repeat;
+}
+
+table.customer_table tbody {
+    background-color: #fff;
+    text-align: left;
+}
+
+table.customer_table .customer_profile {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    text-align: center;
+}
+
+table.customer_table img {
+    border-radius: 50%;
+}
+
+table.customer_table img.bg-green {
+    background-color: #03A89E;
+}
+
+table.customer_table img.bg-blue {
+    background-color:#3A36DB;
+}
+
+table.customer_table img.bg-pink {
+    background-color:#FF69B4;
+}
+
+table.customer_table .gender_F,
+table.customer_table .gender_M {
+    background-color: #ffede8;
+    color: #FF8F6B;
+    border-radius: 60px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    padding: 6px 15px;
+}
+
+table.customer_table .gender_M {
+    background-color: var(--background-color);
+    color: #5B93FF;
+}

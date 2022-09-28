@@ -1,0 +1,70 @@
+.container_customer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add_customer {
+    background: #fff;
+    width: 400px;
+}
+
+.add_customer .header_customer_list .page_header_title{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+
+.page_header_title button.close_btn {
+    background: #ffede8;
+    border:0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.header_customer_list button.add_photo {
+    background:var(--background-color);
+    border:0;
+    border-radius: 50%;
+    width: 134px;
+    height: 134px;
+    transform: translate(100%, 10%);
+    cursor: pointer;
+}
+
+form.form.add_customer_input {
+    padding: 45px 30px 30px 30px;
+}
+
+form.add_customer_input label {
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 400;
+    margin: 15px 0 10px;
+}
+
+form.add_customer_input select {
+    background-image: url(/img/arrow.svg);
+    background-repeat:no-repeat;
+    background-position: 93%;
+    color: #767f8d; 
+    border: 0;
+    background-color: var(--background-color);
+    border-radius: 5px;
+    outline: #767f8d;
+    -webkit-appearance: none;
+    padding: 18px 20px; 
+}
+
+form.add_customer_input option {
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    border: var(--background-color)
+}
+
+.add_customer_input button {
+    margin: 40px 0;
+}

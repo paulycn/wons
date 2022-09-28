@@ -1,0 +1,75 @@
+.wrapper {
+    display: flex;
+}
+
+.wrapper .side_bar {
+    width: 33%;
+    background:#ffff;
+    padding: 90px 50px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+}
+
+.wrapper .side_bar .social_pages {
+    text-align: center;
+}
+
+.social_pages button {
+    background-color: var(--background-color);
+    border: none;
+    border-radius: 10px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 16px;
+    background-position-y: center;    
+    margin-top: 55px;
+    margin-bottom: 22px;
+}
+
+.btn_google {
+    background:url(/img/logo_google.svg) no-repeat ; 
+    margin-right: 9px; 
+    background-position-x: 42px;
+    padding: 15px 40px 14px 70px;
+}
+
+.btn_facebook {
+    background:url(/img/logo_facebook.svg) no-repeat ;
+    margin-left: 9px; 
+    background-position-x: 36px;
+    padding: 15px 30px 14px 55px;
+}
+
+.divider {
+	text-align:center;
+    font-weight: 500;
+}
+
+.divider hr {
+	margin-left:auto;
+	margin-right:auto;
+	width:44%;
+    opacity: 0.1;
+}
+
+.divider .divider-left {
+	float: left;
+}
+
+.divider .divider-right {
+	float: right;
+}
+
+.image_of_page {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}

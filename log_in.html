@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Wons</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <section class="side_bar log_in_section">
+                <div class="logo">
+                    <a href="#"><img src="/img/clear_logo.svg" alt="logo"></a>
+                    <span>Log in</span>
+                </div>
+                <div class="social_pages">
+                    <button class="btn_google">Google</button>
+                    <button class="btn_facebook">Facebook</button>
+                </div>
+                <div class="divider">
+                    <hr class="divider-left"/>Or<hr class="divider-right" />
+                </div>
+                <form class="form">
+                    <label for="email">Email Address</label>
+                    <input type="text"  placeholder="example@gmail.com">
+                    <div class="form_password">
+                        <label for="password">Password</label>                    
+                        <input type="password" placeholder="••••••••">
+                        <button type="button" class="password_toggle"><img src="/img/hide.svg" alt=""></button>
+                    </div>           
+                    <div class="form_checkbox">
+                        <input type="checkbox" name="">
+                        <label for="checkbox">Remember me
+                        </label>
+                        <a href="#" class="checkbox_password">Resset password?</a>
+                    </div>
+                    <button class="btn">Log in
+                    </button>                      
+                </form>
+                <span class="form_new_account">Don't have account yet? <a href="/sign_up.html"> New Account</a></span>
+            </section>
+            <section class="image_of_page">
+                <img src="/img/illustration_log_in.svg">
+            </section>
+        </div>
+    </div>
+    <script>
+        let toggle_button = document.querySelector('.password_toggle')
+        toggle_button.addEventListener('click', function(event) {
+            let password_input = event.target.closest('.form_password').querySelector('input[type=text], input[type=password]')
+            password_input.type = password_input.type === 'text' 
+                ? 'password' 
+                : 'text'
+        })
+    </script>   
+</body>
+</html>

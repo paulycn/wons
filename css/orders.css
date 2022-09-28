@@ -30,6 +30,7 @@ table.orders_table {
 
 table.orders_table td img {
     vertical-align: middle;
+    margin-right: 10px;
 }
 
 table.orders_table thead {
@@ -50,7 +51,8 @@ tbody td:last-child {
     border-bottom-right-radius: 15px;
 }
 
-table.orders_table th, td {
+table.orders_table th,
+table.orders_table td {
     padding: 20px;
     font-weight: 400;
 }
@@ -58,7 +60,7 @@ table.orders_table th, td {
 .desc::after {
     content: '';
     display: inline-block;
-    width: 15px;
+    width: 12px;
     height: 7.5px;
     margin-left: 2.5px;
     background: url(/img/arrow.svg);

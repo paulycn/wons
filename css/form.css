@@ -1,0 +1,63 @@
+.btn {
+    color: #fff;
+    background: #3A36DB;
+    margin: 32px 0 15px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px
+}
+
+.form input {
+    color: #767f8d;
+    border: 0;
+    background: var(--background-color);
+    border-radius: 5px;
+    padding: 18px 20px;
+    outline: #767f8d;
+}
+
+.form label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 20px 0 10px;
+}
+
+.form_checkbox {
+    margin-top: 25px;
+    font-weight: 500;
+    outline: none;
+}
+
+.form_password {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_password .password_toggle {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    border:0;
+}
+
+.form_new_account {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    font-weight: 500;
+}
+
+.side_bar a {
+    color: #3A36DB;
+}

@@ -27,14 +27,17 @@ aside {
 .menu_bar a.active {
     opacity: 1;
     background: var(--background-color);
-    padding: 19px 0 14px 34px;
+    padding: 14px 0 14px 34px;
     border: 1px solid #c39f9f00;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.41);
     border-radius: 0px 5.28176px 5.28176px 0px;
-    margin: 15px 30px 15px 1px;
+    margin: 15px 30px 15px 0;
 }
 
-.menu_bar a.active svg {
+.menu_bar a.active:hover {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.30);    
+}
+
+.menu_bar a.active svg path {
     fill: #3A36DB;
 }
 

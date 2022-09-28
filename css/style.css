@@ -4,6 +4,12 @@
 @import url('./result.css');
 @import url('./analitycs.css');
 @import url('./orders.css');
+@import url('./customer_list.css');
+@import url('./form.css');
+@import url('./add_customer.css');
+@import url('./sign_up.css');
+@import url('./log_in.css');
+
 
 * {
     box-sizing: border-box;
@@ -22,7 +28,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 main {
     margin-left: 147px ;
-    margin-right: 28px;
 }
 
 :root {
@@ -51,14 +56,23 @@ main {
     display: inline-block;
 }
 
-.menu_dot  {
+.menu_dot {
     position: absolute;
     top: 30px;
     right: 60px;
     border:0;
     background:none;
+    cursor: pointer;
 }
 
 .menu_dot :hover {
     opacity: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
 }
