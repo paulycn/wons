@@ -7,3 +7,8 @@
 .side_bar.log_in_section {
     padding: 180px 50px;
 }
+
+.form_checkbox.flex_checkbox {
+    display: flex;
+    justify-content: space-between;
+}

@@ -42,7 +42,7 @@ table.customer_table th {
     width: 12px;
     height: 7.5px;
     margin-left: 2.5px;
-    background: url(/img/desc_black.svg);
+    background: url(../img/desc_black.svg);
     background-repeat: no-repeat;
 }
 

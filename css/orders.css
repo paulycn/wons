@@ -1,12 +1,14 @@
 .orders .orders_wrapper {
     display: flex;
     gap: 37px;
+    flex-grow: 1;
 }
 
 .orders_wrapper .orders_section {
     background: #ffffff;
     padding: 26px;
     border-radius: 10.5px;
+    flex-grow: 1;
 }
 
 .orders_section .orders_header {
@@ -63,7 +65,7 @@ table.orders_table td {
     width: 12px;
     height: 7.5px;
     margin-left: 2.5px;
-    background: url(/img/arrow.svg);
+    background: url(../img/arrow.svg);
     background-repeat: no-repeat;
 }
 

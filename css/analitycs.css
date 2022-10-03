@@ -10,6 +10,7 @@
 
 .analitycs_second_section img {
     width: 435px;
+    flex-grow: 1;
 }
 
 .analitycs_first_section,
@@ -17,3 +18,7 @@
     position: relative;
 }
 
+.analitycs_second_section {
+    flex: 1 1 auto;
+    display: flex;
+}
